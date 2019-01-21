@@ -1,4 +1,26 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ReduxExample
+============
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). The code is based on [Redux Crash Course With React](https://www.youtube.com/watch?v=93p3LxR9xfM&t=1272s) tutorial on YouTube.
+
+
+## External services
+    Uses [JSONPlaceholder](https://jsonplaceholder.typicode.com/) project.
+
+### Alternatives
+
+- Create your own server
+
+    npm install -g json-server
+    rem create configuration (see data/db.json)
+    cd data; json-server --watch db.json
+
+## VSCode Extensions
+    ES7 React/Redux/GraphQL/React-Native snippets
+
+## Links
+
+- [JSX Emmet support in VSCode](https://medium.com/@saravananr_93203/jsx-emmet-support-in-vscode-92e860e27a02) - configure Emmet support for JSX code
 
 ## Available Scripts
 
