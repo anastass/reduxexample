@@ -3,6 +3,13 @@ ReduxExample
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). The code is based on [Redux Crash Course With React](https://www.youtube.com/watch?v=93p3LxR9xfM&t=1272s) tutorial on YouTube.
 
+## Create app
+    rem run first coomand as administrator
+    yarn create react-app hello-react-and-typescript --typescript
+    cd hello-react-and-typescript
+    yarn add node-sass
+    yarn add bootstrap
+    yarn add reactstrap @types/reactstrap
 
 ## External services
     Uses [JSONPlaceholder](https://jsonplaceholder.typicode.com/) project.
@@ -21,6 +28,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Links
 
 - [JSX Emmet support in VSCode](https://medium.com/@saravananr_93203/jsx-emmet-support-in-vscode-92e860e27a02) - configure Emmet support for JSX code
+
+---
 
 ## Available Scripts
 
@@ -64,27 +73,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

@@ -1,7 +1,13 @@
 import React, { Component } from "react";
+import "./Posts.scss";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Alert } from "reactstrap";
+import { IPostState, IPost } from './types';
 
 class Posts extends Component {
-  constructor(props) {
+  state: IPostState;
+
+  constructor(props: any) {
     super(props);
     this.state = {
       posts: []
@@ -22,7 +28,12 @@ class Posts extends Component {
         <p>{post.body}</p>
       </div>
     ));
-    return <div>{postItems}</div>;
+    return (
+      <div>
+        <Alert color="primary">This is a primary alert — check it out!</Alert>
+        {postItems}
+      </div>
+    );
   }
 }
 

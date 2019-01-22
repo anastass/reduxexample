@@ -1,8 +1,10 @@
 import React, { Component } from "react";
-import "./Postform.css";
+import { IPost } from './types';
 
 class PostForm extends Component {
-  constructor(props) {
+  state: IPost;
+
+  constructor(props: any) {
     super(props);
     this.state = {
       title: "",
@@ -13,11 +15,11 @@ class PostForm extends Component {
     this.onSubmit = this.onSubmit.bind(this);
   }
 
-  onChange(e) {
+  onChange(e: any) {
     this.setState({ [e.target.name]: e.target.value });
   }
 
-  onSubmit(e) {
+  onSubmit(e: any) {
     e.preventDefault();
 
     const post = {
