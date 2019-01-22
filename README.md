@@ -29,6 +29,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [JSX Emmet support in VSCode](https://medium.com/@saravananr_93203/jsx-emmet-support-in-vscode-92e860e27a02) - configure Emmet support for JSX code
 - [reduxjs/redux](https://github.com/reduxjs/redux)
 
+## Architecture
+![Redux architecture](./doc/images/redux-architecture.jpg "Redux architecture")
+
+See: [My take on Redux architecture](http://krasimirtsonev.com/blog/article/my-take-on-redux-architecture&h=427&w=680&tbnid=MkF88Eya7FPveM:&q=redux+architecture&tbnh=160&tbnw=254&usg=AI4_-kS9vB9dBCo48CQ150tzM6hq7RrX6Q&vet=12ahUKEwiNwvG5iIHgAhUCaVAKHeL4CgEQ9QEwAHoECAMQBg..i&docid=KCWuGN_sUEQIlM&sa=X&ved=2ahUKEwiNwvG5iIHgAhUCaVAKHeL4CgEQ9QEwAHoECAMQBg)
+
 ## Available Scripts
 
 In the project directory, you can run:
